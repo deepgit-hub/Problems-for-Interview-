@@ -1,3 +1,15 @@
+/* Design a simple login authentication system that verifies:
+
+Username
+Password
+OTP (One-Time Password)
+
+Display appropriate messages for:
+
+Incorrect username
+Incorrect password
+Incorrect OTP
+Successful login */
 import java.lang.System;
 import java.util.Scanner;
 class IQ01
