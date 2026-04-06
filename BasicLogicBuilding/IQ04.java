@@ -13,7 +13,7 @@ Display the final ticket price.
 
 import java.util.Scanner;
 import java.lang.System;
-class problem04
+class IQ04
 {
     public static void main(String args[])
     {
