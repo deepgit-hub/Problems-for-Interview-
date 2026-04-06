@@ -1,4 +1,4 @@
-📌 Interview Question
+/* 📌 Interview Question
 
 Design a movie ticket pricing system based on the following conditions:
 
@@ -10,7 +10,7 @@ If it is a holiday, add ₹20 extra
 If the show time is 10 AM, apply a 10% discount
 
 Display the final ticket price.
-
+*/
 import java.util.Scanner;
 import java.lang.System;
 class IQ04
