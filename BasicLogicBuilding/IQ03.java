@@ -1,4 +1,4 @@
-📌 Interview Question
+/* 📌 Interview Question
 
 Design a user access validation system that checks whether a user is allowed to enter based on the following conditions:
 
@@ -9,7 +9,7 @@ User must have a valid ID
 
 If all conditions are satisfied → allow access
 Otherwise → deny access with appropriate messages
-
+*/
 import java.lang.System;
 import java.util.Scanner;
 class IQ03
