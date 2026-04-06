@@ -12,7 +12,7 @@ Display the user’s access level.
 */  
 import java.util.Scanner;
 import java.lang.System;
-class IO06
+class IQ06
 {
     public static void main(String args[])
     {
