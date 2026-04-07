@@ -1,3 +1,20 @@
+/* 📌 Interview Question
+
+Design a student eligibility system for exams based on attendance.
+
+The system should:
+
+Take the number of students
+For each student, input attendance percentage
+Rules:
+Attendance < 75% → Not Eligible
+Attendance ≥ 75% → Eligible
+
+Finally, display:
+
+Number of eligible students
+Number of not eligible students
+*/    
 import java.lang.System;
 import java.util.Scanner;
 class IQ08
