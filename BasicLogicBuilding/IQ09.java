@@ -1,3 +1,24 @@
+/* 📌 Interview Question
+
+Design an exam eligibility system with penalties and exceptions.
+
+The system should:
+
+Take:
+Attendance percentage
+Number of late entries
+Rules:
+If late entries > 3 → Not allowed
+If late entries between 1–3 → Fine ₹100 per late
+If attendance < 75%:
+Ask for medical certificate
+If no certificate → Not allowed
+
+Finally:
+
+If allowed → show:
+Allowed (with or without fine)
+If not allowed → show denial message */
 import java.lang.System;
 import java.util.Scanner;
 class IQ09
