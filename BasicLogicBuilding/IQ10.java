@@ -1,3 +1,23 @@
+/* 📌 Interview Question
+
+Design a hostel entry monitoring system based on time restrictions.
+
+The system should:
+
+Take number of students
+For each student, input the current time (24-hour format)
+
+Rules:
+
+Time between 7 AM and 8 PM (7–19) → Allowed
+Time between 8 PM and 10 PM (20–21) → Warning
+Time beyond 10 PM (22 onwards) OR before 7 AM → Not Allowed
+
+Finally, display:
+
+Number of allowed students
+Number of students with warning
+Number of not allowed students */
 import java.lang.System;
 import java.util.Scanner;
 class IQ10
