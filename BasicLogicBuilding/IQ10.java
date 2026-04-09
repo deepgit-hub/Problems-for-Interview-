@@ -20,7 +20,7 @@ Number of students with warning
 Number of not allowed students */
 import java.lang.System;
 import java.util.Scanner;
-class IQ10
+class IQ01
 {
     public static void main(String args[])
     {
@@ -39,18 +39,18 @@ class IQ10
         }
         for(int j=0;j<student_count;j++)
         {
-            if(sc[j]>=7 && sc[j]<20)
-            {
-                allow+=1;
-            }
-            else if(sc[j]>=20 && sc[j]<22)
-            {
-                warning+=1;
-            }
-            else if(sc[j]>=22 && sc[j]<7)
-            {
-                notallow+=1;
-            }
+            if(sc[j] >= 7 && sc[j] < 20)
+        {
+            allow++;
+        }
+        else if(sc[j] >= 20 && sc[j] < 22)
+        {
+            warning++;
+        }
+        else
+        {
+            notallow++;
+        }
         }
         System.out.println("Hostel Monitor Report");
         System.out.println("Allowed Students : "+allow);
