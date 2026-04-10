@@ -1,4 +1,4 @@
-📌 Interview Question
+/* 📌 Interview Question
 
 Design a student attendance classification system.
 
@@ -15,6 +15,7 @@ Classify students into:
 95% – 100% → Awarded
 
 Finally, display the count of students in each category.
+    */
 import java.lang.System;
 import java.util.Scanner;
 class IQ11
