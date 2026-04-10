@@ -1,3 +1,20 @@
+📌 Interview Question
+
+Design a student attendance classification system.
+
+The system should:
+
+Take the number of students
+For each student, input attendance percentage
+
+Classify students into:
+
+≤ 40% → Strict Warning
+41% – 74% → Not Eligible
+75% – 94% → Eligible
+95% – 100% → Awarded
+
+Finally, display the count of students in each category.
 import java.lang.System;
 import java.util.Scanner;
 class IQ11
