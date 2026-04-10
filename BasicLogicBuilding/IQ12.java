@@ -1,4 +1,4 @@
-📌 Interview Question
+/*📌 Interview Question
 
 Design a student grading system with assignment penalty.
 
@@ -19,6 +19,7 @@ Grade system:
 < 60 → Fail
 
 Display the final grade.
+ */   
 import java.lang.System;
 import java.util.Scanner;
 class IQ12
