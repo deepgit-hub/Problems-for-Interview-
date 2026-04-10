@@ -1,3 +1,24 @@
+📌 Interview Question
+
+Design a student grading system with assignment penalty.
+
+The program should:
+
+Take marks of 3 subjects
+Calculate the average
+
+Rules:
+
+If assignment is not submitted, deduct 5 marks from average
+
+Grade system:
+
+≥ 90 → A Grade
+75 – 89 → B Grade
+60 – 74 → C Grade
+< 60 → Fail
+
+Display the final grade.
 import java.lang.System;
 import java.util.Scanner;
 class IQ12
