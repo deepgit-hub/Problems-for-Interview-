@@ -1,0 +1,52 @@
+import java.lang.System;
+import java.util.Scanner;
+class Practice
+{
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter Number of Customers : ");
+        int customers = scan.nextInt();
+        int gift=0;
+        int purchase[] = new int[customers];
+        int highestpurchase =0;
+        int discount=0;
+        int totalpurchase=0;
+        for(int i=0;i<customers;i++)
+        {
+            System.out.println("Students "+(i+1));
+            System.out.print("Enter the Amount you purchased : ");
+            purchase[i] = scan.nextInt();
+        }
+        for(int j=0;j<customers;j++)
+        {
+            if(purchase[j]>2000 && purchase[j]<5000)
+            {
+                discount +=purchase[j]*10/100;
+                totalpurchase +=purchase[j];
+            }
+            else if(purchase[j]>=5000 && purchase<1000)
+            {
+                discount+=purchase[j]*15/100;
+                totalpurchase +=purchase[j];
+            }
+            else if(purchase[j]>=10000)
+            {
+                discount+=purchase[j]*20/100;
+                totalpurchase +=purchase[j];
+                gift++;
+            }
+        }
+        highestpurchase=purchase[0];
+        for(int k=0;k<customers;k++)
+        {
+            highestpurchase=purchase[k];
+        }
+        
+        System.out.println("Total Discount Given           : ");
+        System.out.println("Total Purchase in rupees       : ");
+        System.out.println("No. of Customers receive gifts : ");
+        System.out.println("Highest Discount Given         : ");
+        
+    }
+}
