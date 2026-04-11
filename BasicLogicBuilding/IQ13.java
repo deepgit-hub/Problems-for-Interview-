@@ -1,3 +1,18 @@
+📌 Interview Question
+
+Design a student marks analysis system.
+
+The program should:
+
+Take number of students
+Store marks of each student
+
+Then calculate and display:
+
+Highest mark
+Lowest mark
+Average mark
+Number of students scoring above average
 import java.lang.System;
 import java.util.Scanner;
 class IQ13
