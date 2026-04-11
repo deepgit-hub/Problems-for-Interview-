@@ -1,4 +1,4 @@
-📌 Interview Question
+/* 📌 Interview Question
 
 Design a student marks analysis system.
 
@@ -13,6 +13,7 @@ Highest mark
 Lowest mark
 Average mark
 Number of students scoring above average
+    */
 import java.lang.System;
 import java.util.Scanner;
 class IQ13
