@@ -1,3 +1,24 @@
+📌 Interview Question
+
+Design a customer discount and reward system.
+
+The program should:
+
+Take number of customers
+Store purchase amount for each customer
+
+Apply discount rules:
+
+₹2000 – ₹4999 → 10% discount
+₹5000 – ₹9999 → 15% discount
+≥ ₹10000 → 25% discount + gift
+
+Finally, display:
+
+Total discount given
+Highest purchase amount
+Number of customers who received gifts
+    
 import java.lang.System;
 import java.util.Scanner;
 class IQ14
