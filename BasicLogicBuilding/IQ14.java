@@ -1,4 +1,4 @@
-📌 Interview Question
+/* 📌 Interview Question
 
 Design a customer discount and reward system.
 
@@ -18,7 +18,7 @@ Finally, display:
 Total discount given
 Highest purchase amount
 Number of customers who received gifts
-    
+    */
 import java.lang.System;
 import java.util.Scanner;
 class IQ14
