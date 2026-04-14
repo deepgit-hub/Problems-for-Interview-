@@ -1,4 +1,4 @@
-📌 Interview Question
+/* 📌 Interview Question
 
 Design a student report card system.
 
@@ -22,7 +22,7 @@ Finally, display:
 Student name
 Total
 Average
-Grade
+Grade */
 import java.lang.System;
 import java.util.Scanner;
 class IQ15
