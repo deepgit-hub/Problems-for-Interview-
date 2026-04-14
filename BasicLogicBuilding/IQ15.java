@@ -1,3 +1,28 @@
+📌 Interview Question
+
+Design a student report card system.
+
+The program should:
+
+Take student name
+Take marks of 5 subjects
+Calculate:
+Total marks
+Average marks
+
+Assign grade based on total:
+
+451 – 500 → A
+401 – 450 → B
+301 – 400 → C
+≤ 300 → D
+
+Finally, display:
+
+Student name
+Total
+Average
+Grade
 import java.lang.System;
 import java.util.Scanner;
 class IQ15
