@@ -1,3 +1,17 @@
+📌 Interview Question
+
+Write a Java program using methods to perform multiple tasks.
+
+The program should:
+
+Create different methods to:
+Calculate sum of two numbers
+Print a star pattern
+Display college name
+Display department
+Display career goal
+
+Call all methods from the main method.
 import java.lang.System;
 import java.util.Scanner;
 class IQ16
