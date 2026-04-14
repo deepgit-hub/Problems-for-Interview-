@@ -1,4 +1,4 @@
-📌 Interview Question
+/* 📌 Interview Question
 
 Write a Java program using methods to perform multiple tasks.
 
@@ -14,6 +14,7 @@ Display career goal
 Call all methods from the main method.
 import java.lang.System;
 import java.util.Scanner;
+*/
 class IQ16
 {
     void sum()
