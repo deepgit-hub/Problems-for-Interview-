@@ -1,4 +1,4 @@
-📌 Interview Question
+/* 📌 Interview Question
 
 Write a Java program using methods with parameters to display purchase details of items.
 
@@ -6,7 +6,7 @@ The program should:
 
 Accept item name and price as parameters
 Display purchase details
-Call the method multiple times for different items
+Call the method multiple times for different items */
 import java.lang.System;
 import java.util.Scanner;
 class IQ17
