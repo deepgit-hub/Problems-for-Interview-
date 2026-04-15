@@ -1,11 +1,11 @@
-📌 Interview Question
+/* 📌 Interview Question
 
 Write a Java program using methods to find:
 
 The largest of three numbers
 The smallest of three numbers
 
-Call both methods from the main method.
+Call both methods from the main method. */
 import java.lang.System;
 import java.util.Scanner;
 class IQ18
