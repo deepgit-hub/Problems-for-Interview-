@@ -1,3 +1,11 @@
+📌 Interview Question
+
+Write a Java program using a method to print the multiplication table of a number up to a given limit.
+
+The program should:
+
+Take number and limit as input
+Print multiplication table from 1 to limit
 import java.lang.System;
 import java.util.Scanner;
 class IQ19
