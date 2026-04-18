@@ -7,10 +7,11 @@ class Account
     double balance =0;
     void getdetails(Scanner scan)
     {
+        scan.nextLine();
         System.out.print("Enter Your name : ");
         name=scan.nextLine();
         System.out.print("Enter your account number : ");
-        int acc_no = scan.nextInt();
+        acc_no = scan.nextInt();
     }
     void displaydetails()
     {
@@ -28,7 +29,7 @@ class SavingsAccount extends Account
         balance+=amount;
         intrest = balance*(2/100);
         balance = balance+intrest;
-        System.out.print("Balance after depost "+account+" is "+balance);
+        System.out.print("Balance after depost "+amount+" is "+balance);
     }
     void withdraw(Scanner scan)
     {
@@ -45,7 +46,7 @@ class SavingsAccount extends Account
     }
     void checkbalance()
     {
-        System.out.print("You Account Balance is : "+checkbalance);
+        System.out.print("You Account Balance is : "+balance);
     }
 }
 
@@ -56,7 +57,7 @@ class CurrentAccount extends Account
         System.out.print("Enter the amount to deposit : ");
         int amount = scan.nextInt();
         balance+=amount;
-        System.out.print("Balance after depost "+account+" is "+balance);
+        System.out.print("Balance after depost "+amount+" is "+balance);
     }
     void withdraw(Scanner scan)
     {
@@ -73,7 +74,7 @@ class CurrentAccount extends Account
     }
     void checkbalance()
     {
-        System.out.print("You Account Balance is : "+checkbalance);
+        System.out.print("You Account Balance is : "+balance);
     }
 }
 
@@ -90,11 +91,66 @@ class IQ01
         int acc_type = scan.nextInt();
         if(acc_type==1)
         {
+            boolean run = true;
             s.getdetails(scan);
+            while(run)
+            {
+            
             System.out.println("1. Deposit");
             System.out.println("2. Withdraw");
-            System.out.println("1. ");
-            System.out.println("1. Deposit");
+            System.out.println("3. Check Balance");
+            System.out.println("4. Display Details");
+            System.out.print("Enter your choice (1-4)");
+            int choice = scan.nextInt();
+            switch(choice)
+            {
+                case 1:
+                    s.deposit(scan);
+                    break;
+                case 2:
+                    s.withdraw(scan);
+                    break;
+                case 3:
+                    s.checkbalance();
+                    break;
+                case 4:
+                    s.displaydetails();            
+                    break;
+                default:
+                    System.out.print("Invalid choice entered!!!");    
+
+            }}
         }
+        else if(acc_type==2)
+        {
+            boolean run = true;
+               c.getdetails(scan);
+            while(run)
+            {
+         
+            System.out.println("1. Deposit");
+            System.out.println("2. Withdraw");
+            System.out.println("3. Check Balance");
+            System.out.println("4. Display Details");
+            System.out.print("Enter your choice (1-4)");
+            int choice = scan.nextInt();
+            switch(choice)
+            {
+                case 1:
+                    c.deposit(scan);
+                    break;
+                case 2:
+                    c.withdraw(scan);
+                    break;
+                case 3:
+                    c.checkbalance();
+                    break;
+                case 4:
+                    c.displaydetails();            
+                    break;
+                default:
+                    System.out.print("Invalid choice entered!!!");  
+            }}
+        }    
     }
 }
