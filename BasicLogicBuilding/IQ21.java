@@ -1,3 +1,16 @@
+📌 Interview Question
+
+Write a Java program using classes and objects to store and display student details.
+
+The program should:
+
+Create a class with attributes:
+Name
+Father’s Name
+Age
+Mobile Number
+Create multiple objects
+Assign values and display details
 import java.lang.System;
 import java.util.Scanner;
 class IQ21
