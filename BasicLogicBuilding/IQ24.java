@@ -1,4 +1,4 @@
-📌 Interview Question
+/* 📌 Interview Question
 
 Write a Java program using classes and objects to store details of multiple phones and find the most expensive one.
 
@@ -10,7 +10,7 @@ Price
 Storage
 Take input for 3 phones
 Display all phone details
-Compare and print the phone with highest price
+Compare and print the phone with highest price */
 import java.lang.System;
 import java.util.Scanner;
 class IQ01
