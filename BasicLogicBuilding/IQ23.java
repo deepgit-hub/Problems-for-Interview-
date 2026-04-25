@@ -1,3 +1,15 @@
+📌 Interview Question
+
+Write a Java program using a class and methods to input and display details of multiple students.
+
+The program should:
+
+Create a class with attributes:
+Name, Age, Register Number, Department
+Create methods:
+getDetails() → to take input
+display() → to print details
+Create multiple objects and use the same methods for each
 import java.lang.System;
 import java.util.Scanner;
 class IQ23
