@@ -20,7 +20,7 @@ class IQ25
     public static void main(String args[])
     {
         Scanner scan = new Scanner(System.in);
-        practice p = new practice();
+        IQ25 p = new IQ25();
         System.out.print("Enter First angle : ");
         int  a=scan.nextInt();
         System.out.print("Enter Second angle : ");
