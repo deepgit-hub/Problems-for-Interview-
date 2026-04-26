@@ -1,3 +1,17 @@
+ 📌 Interview Question
+
+Design a program to classify a triangle based on its side lengths.
+
+The system should:
+
+Accept three integer inputs representing the sides of a triangle
+
+Check:
+If all three sides are equal → mark as Equilateral
+If any two sides are equal → mark as Isosceles
+If all three sides are different → mark as Scalene
+
+Finally, display the type of triangle.
 import java.lang.System;
 import java.util.Scanner;
 class IQ25
