@@ -17,7 +17,7 @@ Create a method to:
 Finally:
     - Create an object with sample values
     - Call the display method to show the details
-*
+*/
 import java.lang.System;
 import java.util.Scanner;
 class IQ27
