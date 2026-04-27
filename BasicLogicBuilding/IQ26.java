@@ -15,7 +15,7 @@ When an object is created:
     - Automatically display the person's name and age using the constructor
 
 Finally, demonstrate the program by creating an object with sample values.
-
+*/
 import java.lang.System;
 import java.util.Scanner;
 class IQ26
