@@ -8,7 +8,7 @@ class IQ28
     {
         this.price=price;
     }
-    IQ01(int price,String brand)
+    IQ28(int price,String brand)
     {
         this.price=price;
         this.brand=brand;
