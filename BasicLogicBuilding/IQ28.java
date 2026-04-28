@@ -18,7 +18,7 @@ Create a method to:
 Finally:
     - Create multiple objects using different constructors
     - Call the display method to show the details of each car
-*
+*/
 import java.lang.System;
 import java.util.Scanner;
 class IQ28
