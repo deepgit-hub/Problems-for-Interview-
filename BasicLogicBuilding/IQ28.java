@@ -20,7 +20,7 @@ class IQ28
     }
     public static void main(String args[])
     {
-        IQ28 a = new IQ01(1500000);
+        IQ28 a = new IQ28(1500000);
         IQ01 b = new IQ01(1200000,"BMW");
         a.display();
         b.display();
