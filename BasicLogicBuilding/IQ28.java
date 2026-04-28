@@ -4,7 +4,7 @@ class IQ28
 {
     int price;
     String brand;
-    IQ01(int price)
+    IQ28(int price)
     {
         this.price=price;
     }
