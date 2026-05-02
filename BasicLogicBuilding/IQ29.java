@@ -24,7 +24,7 @@ Finally:
     - Accept input for both Employee and Manager
     - Create objects for each
     - Display manager details and calculate their bonus
-*
+*/
 package practice;
 import java.lang.System;
 import java.util.Scanner;
