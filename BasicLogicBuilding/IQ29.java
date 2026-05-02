@@ -42,7 +42,7 @@ class Manager extends Employee
 		return salary *0.20;
 	}
 }
-class Problem01
+class IQ29
 {
 	public static void main(String[] args)
 	{
