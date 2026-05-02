@@ -1,7 +1,7 @@
 package practice;
 import java.lang.System;
 import java.util.Scanner;
-class Employee
+class IQ29
 {
 	String name;
 	int id;
