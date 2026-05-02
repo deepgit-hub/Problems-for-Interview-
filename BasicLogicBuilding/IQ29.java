@@ -26,7 +26,7 @@ class IQ29
 		return salary*0.10;
 	}
 }
-class Manager extends Employee
+class Manager extends IQ29
 {
 	int teamsize;
 	Manager(String name,int id,double salary,int teamsize)
