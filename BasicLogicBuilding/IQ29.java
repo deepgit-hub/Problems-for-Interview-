@@ -1,3 +1,30 @@
+/* 📌 Interview Question
+
+Design an employee management system using inheritance and method overriding.
+
+The system should:
+
+Create a base class "Employee" with:
+    - name (String)
+    - id (int)
+    - salary (double)
+
+Include methods in Employee:
+    - Constructor to initialize employee details
+    - Method to display employee details
+    - Method to calculate bonus (10% of salary)
+
+Create a subclass "Manager" that extends Employee:
+    - Additional attribute: team size (int)
+
+Override the bonus calculation method in Manager:
+    - Bonus should be 20% of salary
+
+Finally:
+    - Accept input for both Employee and Manager
+    - Create objects for each
+    - Display manager details and calculate their bonus
+*
 package practice;
 import java.lang.System;
 import java.util.Scanner;
