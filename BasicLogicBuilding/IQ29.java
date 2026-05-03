@@ -4,7 +4,7 @@ Design an employee management system using inheritance and method overriding.
 
 The system should:
 
-Create a base class "Employeee" with:
+Create a base class "Employee" with:
     - name (String)
     - id (int)
     - salary (double)
